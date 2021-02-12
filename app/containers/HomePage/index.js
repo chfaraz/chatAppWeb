@@ -8,11 +8,21 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import TextBox from '../../components/TextBox';
+
+import './style.css';
+
+import Header from '../../components/Header';
+import ChatBox from '../../components/ChatBox';
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <div className="hame-page">
+      <Header />
+      <div className="chat-side">
+        <ChatBox />
+        <TextBox />
+      </div>
+    </div>
   );
 }

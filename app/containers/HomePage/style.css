@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  .hame-page {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+  .header-wrapper {
+    min-width: 378px;
+    max-width: 35% !important;
+    margin-left: 10px !important;
+  }
+  .chat-side {
+    width: 70% !important;
+    height: 100vh !important;
+  }
+  .chat-box {
+    width: 97% !important;
+    height: 88vh !important;
+  }
+  .text-box-wrapper {
+    width: 97% !important;
+  }
+}

@@ -1,0 +1,48 @@
+.message-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  align-self: flex-end;
+  margin-bottom: 8px;
+}
+.message-wrapper {
+  display: flex;
+  margin: 7px 0px;
+}
+.message-wrapper p {
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  box-shadow: 0px 0px 19px 0px rgb(172, 173, 173);
+}
+.recever-message {
+  border-bottom-left-radius: 0px !important;
+  margin: 0px 0 -7px 0;
+}
+.sender-message {
+  border-bottom-right-radius: 0px !important;
+  background-color: black !important;
+  color: #fff !important;
+}
+.sender-wrapper {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.sender-wrapper span {
+  font-size: 9px;
+  display: flex;
+  justify-content: flex-end !important;
+  margin: 0px 10px 0px 0px;
+}
+.recever-wrapper span {
+  font-size: 9px;
+  margin: 0px 0px 0px 10px;
+}

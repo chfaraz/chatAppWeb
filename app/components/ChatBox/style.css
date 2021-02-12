@@ -1,0 +1,22 @@
+.chat-box {
+  width: 90%;
+  height: 77vh;
+  margin: 10px auto;
+  padding: 10px;
+  overflow-y: scroll;
+  background-color: #f3f6fb;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+  flex-direction: column-reverse;
+  display: flex;
+}
+.chat-box::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat-box {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
